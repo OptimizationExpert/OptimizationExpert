@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alireza-soroudi.github.io/sitemap.xml

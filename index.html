@@ -3,13 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Optimization Courses</title>
-  <meta name="description" content="Personal webpage for optimization courses, lecture materials, assignments, and resources." />
+
+  <title>Optimization Courses | Ali Soroudi | Power Systems, Convex & Stochastic Optimization</title>
+  <meta name="description" content="Optimization courses by Ali Soroudi covering linear programming, convex optimization, stochastic optimization, energy systems optimization, Gurobi, Pyomo, JuMP, MATLAB, and power system applications." />
+  <meta name="keywords" content="optimization course, power system optimization, energy systems optimization, convex optimization, stochastic optimization, linear programming, integer programming, Gurobi, Pyomo, JuMP, MATLAB, operations research, lecture notes, optimization assignments" />
+  <meta name="author" content="Ali Soroudi" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://alireza-soroudi.github.io/" />
   <link rel="stylesheet" href="styles.css" />
+
+  <meta property="og:title" content="Optimization Courses | Ali Soroudi" />
+  <meta property="og:description" content="Course materials and resources for optimization, energy systems, power systems, and operations research." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://alireza-soroudi.github.io/" />
+  <meta property="og:site_name" content="Optimization Courses" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Optimization Courses | Ali Soroudi" />
+  <meta name="twitter:description" content="Optimization lecture notes, assignments, examples, and software resources for power and energy systems." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ali Soroudi",
+    "url": "https://alireza-soroudi.github.io/",
+    "knowsAbout": [
+      "Optimization",
+      "Power System Optimization",
+      "Energy Systems",
+      "Convex Optimization",
+      "Stochastic Optimization",
+      "Operations Research"
+    ],
+    "sameAs": [
+      "https://scholar.google.com/",
+      "https://www.linkedin.com/",
+      "https://github.com/"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Optimization Courses",
+    "url": "https://alireza-soroudi.github.io/",
+    "description": "Optimization courses, lecture notes, assignments, notebooks, and software resources for students and researchers."
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav">
+    <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="#top">Optimization Courses</a>
       <div class="nav-links">
         <a href="#courses">Courses</a>
@@ -21,10 +69,10 @@
 
     <section id="top" class="hero">
       <p class="eyebrow">Personal teaching page</p>
-      <h1>Optimization courses, notes, assignments, and learning resources.</h1>
+      <h1>Optimization Courses by Ali Soroudi</h1>
       <p class="hero-text">
-        A central place for students to find course information, lecture notes, problem sets,
-        datasets, software links, and announcements related to optimization.
+        Lecture notes, assignments, examples, datasets, and software resources for students learning
+        mathematical optimization, power system optimization, energy systems modelling, and operations research.
       </p>
       <div class="hero-actions">
         <a class="button primary" href="#courses">View courses</a>
@@ -38,64 +86,64 @@
       <div>
         <h2>About this page</h2>
         <p>
-          This website hosts teaching materials for optimization courses, including linear
-          programming, nonlinear optimization, convex optimization, integer programming,
-          and applications in engineering, energy systems, operations research, and decision making.
+          This website hosts teaching materials for optimization courses, including linear programming,
+          nonlinear optimization, convex optimization, integer programming, stochastic optimization,
+          and applications in engineering, energy systems, power systems, operations research, and decision making.
         </p>
       </div>
       <aside class="notice">
-        <strong>Tip:</strong> Edit this text in <code>index.html</code> to add your name,
-        institution, office hours, and course-specific links.
+        <strong>SEO note:</strong> Replace the placeholder profile links in <code>index.html</code>
+        with your Google Scholar, ORCID, LinkedIn, GitHub, and university profile URLs.
       </aside>
     </section>
 
     <section id="courses" class="section">
       <div class="section-heading">
         <p class="eyebrow">Courses</p>
-        <h2>Current and past courses</h2>
+        <h2>Current and past optimization courses</h2>
       </div>
 
       <div class="course-grid">
         <article class="course-card">
           <h3>Introduction to Optimization</h3>
           <p>
-            Fundamentals of mathematical optimization, modelling, linear programming,
-            duality, sensitivity analysis, and algorithmic thinking.
+            Fundamentals of mathematical optimization, modelling, linear programming, duality,
+            sensitivity analysis, and algorithmic thinking.
           </p>
           <ul>
             <li>Level: Undergraduate / MSc</li>
             <li>Tools: Python, Excel Solver, MATLAB</li>
-            <li>Status: Add semester here</li>
+            <li>Topics: Linear programming, duality, modelling</li>
           </ul>
-          <a href="#materials">Course materials →</a>
+          <a href="#materials" aria-label="Course materials for Introduction to Optimization">Course materials →</a>
         </article>
 
         <article class="course-card">
           <h3>Convex Optimization</h3>
           <p>
-            Convex sets and functions, optimality conditions, Lagrange duality,
-            gradient methods, interior-point methods, and applications.
+            Convex sets and functions, optimality conditions, Lagrange duality, gradient methods,
+            interior-point methods, and engineering applications.
           </p>
           <ul>
             <li>Level: MSc / PhD</li>
             <li>Tools: CVXPY, Python, MATLAB</li>
-            <li>Status: Add semester here</li>
+            <li>Topics: Duality, KKT conditions, algorithms</li>
           </ul>
-          <a href="#materials">Course materials →</a>
+          <a href="#materials" aria-label="Course materials for Convex Optimization">Course materials →</a>
         </article>
 
         <article class="course-card">
-          <h3>Optimization in Energy Systems</h3>
+          <h3>Power System and Energy Systems Optimization</h3>
           <p>
-            Optimization models for power systems, market clearing, unit commitment,
-            investment planning, uncertainty, and robust/stochastic methods.
+            Optimization models for power systems, electricity market clearing, unit commitment,
+            investment planning, uncertainty, and robust or stochastic optimization methods.
           </p>
           <ul>
             <li>Level: MSc / Professional</li>
-            <li>Tools: Pyomo, Gurobi/CPLEX, Julia/JuMP</li>
-            <li>Status: Add semester here</li>
+            <li>Tools: Pyomo, Gurobi, CPLEX, Julia/JuMP</li>
+            <li>Topics: Unit commitment, markets, planning</li>
           </ul>
-          <a href="#materials">Course materials →</a>
+          <a href="#materials" aria-label="Course materials for Power System and Energy Systems Optimization">Course materials →</a>
         </article>
       </div>
     </section>
@@ -103,17 +151,17 @@
     <section id="materials" class="section split">
       <div>
         <p class="eyebrow">Materials</p>
-        <h2>Lecture notes and assignments</h2>
+        <h2>Lecture notes, assignments, and code examples</h2>
         <p>
-          Use this section to link PDFs, slides, notebooks, datasets, assignment sheets,
-          solutions, and recorded lectures.
+          Use this section to link PDFs, lecture slides, Python notebooks, datasets, assignment sheets,
+          solutions, recorded lectures, and GitHub repositories.
         </p>
       </div>
-      <div class="link-list">
-        <a href="#">Lecture notes — coming soon</a>
-        <a href="#">Problem sets — coming soon</a>
-        <a href="#">Python notebooks — coming soon</a>
-        <a href="#">Datasets and examples — coming soon</a>
+      <div class="link-list" aria-label="Course material links">
+        <a href="#">Optimization lecture notes — coming soon</a>
+        <a href="#">Problem sets and assignments — coming soon</a>
+        <a href="#">Python, Pyomo, and CVXPY notebooks — coming soon</a>
+        <a href="#">Energy systems datasets and examples — coming soon</a>
       </div>
     </section>
 
@@ -124,16 +172,16 @@
       </div>
       <div class="resource-grid">
         <div>
-          <h3>Software</h3>
-          <p>Python, CVXPY, Pyomo, JuMP, MATLAB, Gurobi, CPLEX, GLPK.</p>
+          <h3>Optimization software</h3>
+          <p>Python, CVXPY, Pyomo, JuMP, MATLAB, Gurobi, CPLEX, GLPK, and related modelling tools.</p>
         </div>
         <div>
-          <h3>Topics</h3>
-          <p>Linear programming, convex optimization, integer programming, stochastic optimization, robust optimization.</p>
+          <h3>Optimization topics</h3>
+          <p>Linear programming, convex optimization, integer programming, stochastic optimization, and robust optimization.</p>
         </div>
         <div>
           <h3>Applications</h3>
-          <p>Energy systems, operations research, scheduling, planning, market design, and decision support.</p>
+          <p>Power systems, energy systems, operations research, scheduling, planning, market design, and decision support.</p>
         </div>
       </div>
     </section>
@@ -143,14 +191,14 @@
       <h2>Get in touch</h2>
       <p>
         Add your preferred contact details here, such as email, office hours, university profile,
-        GitHub profile, or LinkedIn.
+        Google Scholar, ORCID, GitHub, or LinkedIn.
       </p>
       <a class="button primary" href="mailto:your.email@example.com">Email me</a>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Optimization Courses. Built for GitHub Pages.</p>
+    <p>© <span id="year"></span> Ali Soroudi. Built for GitHub Pages.</p>
   </footer>
 
   <script>
