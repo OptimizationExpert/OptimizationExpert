@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Optimization Courses</title>
+  <meta name="description" content="Personal webpage for optimization courses, lecture materials, assignments, and resources." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top">Optimization Courses</a>
+      <div class="nav-links">
+        <a href="#courses">Courses</a>
+        <a href="#materials">Materials</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section id="top" class="hero">
+      <p class="eyebrow">Personal teaching page</p>
+      <h1>Optimization courses, notes, assignments, and learning resources.</h1>
+      <p class="hero-text">
+        A central place for students to find course information, lecture notes, problem sets,
+        datasets, software links, and announcements related to optimization.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#courses">View courses</a>
+        <a class="button secondary" href="#materials">Browse materials</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <div>
+        <h2>About this page</h2>
+        <p>
+          This website hosts teaching materials for optimization courses, including linear
+          programming, nonlinear optimization, convex optimization, integer programming,
+          and applications in engineering, energy systems, operations research, and decision making.
+        </p>
+      </div>
+      <aside class="notice">
+        <strong>Tip:</strong> Edit this text in <code>index.html</code> to add your name,
+        institution, office hours, and course-specific links.
+      </aside>
+    </section>
+
+    <section id="courses" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Courses</p>
+        <h2>Current and past courses</h2>
+      </div>
+
+      <div class="course-grid">
+        <article class="course-card">
+          <h3>Introduction to Optimization</h3>
+          <p>
+            Fundamentals of mathematical optimization, modelling, linear programming,
+            duality, sensitivity analysis, and algorithmic thinking.
+          </p>
+          <ul>
+            <li>Level: Undergraduate / MSc</li>
+            <li>Tools: Python, Excel Solver, MATLAB</li>
+            <li>Status: Add semester here</li>
+          </ul>
+          <a href="#materials">Course materials →</a>
+        </article>
+
+        <article class="course-card">
+          <h3>Convex Optimization</h3>
+          <p>
+            Convex sets and functions, optimality conditions, Lagrange duality,
+            gradient methods, interior-point methods, and applications.
+          </p>
+          <ul>
+            <li>Level: MSc / PhD</li>
+            <li>Tools: CVXPY, Python, MATLAB</li>
+            <li>Status: Add semester here</li>
+          </ul>
+          <a href="#materials">Course materials →</a>
+        </article>
+
+        <article class="course-card">
+          <h3>Optimization in Energy Systems</h3>
+          <p>
+            Optimization models for power systems, market clearing, unit commitment,
+            investment planning, uncertainty, and robust/stochastic methods.
+          </p>
+          <ul>
+            <li>Level: MSc / Professional</li>
+            <li>Tools: Pyomo, Gurobi/CPLEX, Julia/JuMP</li>
+            <li>Status: Add semester here</li>
+          </ul>
+          <a href="#materials">Course materials →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="materials" class="section split">
+      <div>
+        <p class="eyebrow">Materials</p>
+        <h2>Lecture notes and assignments</h2>
+        <p>
+          Use this section to link PDFs, slides, notebooks, datasets, assignment sheets,
+          solutions, and recorded lectures.
+        </p>
+      </div>
+      <div class="link-list">
+        <a href="#">Lecture notes — coming soon</a>
+        <a href="#">Problem sets — coming soon</a>
+        <a href="#">Python notebooks — coming soon</a>
+        <a href="#">Datasets and examples — coming soon</a>
+      </div>
+    </section>
+
+    <section id="resources" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Resources</p>
+        <h2>Recommended software and references</h2>
+      </div>
+      <div class="resource-grid">
+        <div>
+          <h3>Software</h3>
+          <p>Python, CVXPY, Pyomo, JuMP, MATLAB, Gurobi, CPLEX, GLPK.</p>
+        </div>
+        <div>
+          <h3>Topics</h3>
+          <p>Linear programming, convex optimization, integer programming, stochastic optimization, robust optimization.</p>
+        </div>
+        <div>
+          <h3>Applications</h3>
+          <p>Energy systems, operations research, scheduling, planning, market design, and decision support.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Get in touch</h2>
+      <p>
+        Add your preferred contact details here, such as email, office hours, university profile,
+        GitHub profile, or LinkedIn.
+      </p>
+      <a class="button primary" href="mailto:your.email@example.com">Email me</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Optimization Courses. Built for GitHub Pages.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
